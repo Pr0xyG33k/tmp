@@ -1,0 +1,231 @@
+<svg id="gh-dark-mode-only" width="360" height="210" xmlns="http://www.w3.org/2000/svg">
+<style>
+  svg {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  #background {
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    fill: none;
+    stroke: none;
+    stroke-width: 1px;
+    rx: 6px;
+    ry: 6px;
+  }
+
+  /* Mode sombre */
+  #gh-dark-mode-only:target #background {
+    fill: #0d1117;
+    stroke-width: 0.5px;
+  }
+
+  /* Mode clair */
+  #gh-light-mode-only:target #background {
+    fill: #f7f7f8;
+    stroke-width: 0.5px;
+  }
+
+  foreignObject {
+    background: none;
+    width: calc(100% - 10px - 32px);
+    height: calc(100% - 10px - 24px);
+  }
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 0.75em;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    fill: white;
+  }
+
+  /* Mode sombre */
+  #gh-dark-mode-only:target h2 {
+    color: #c9d1d9;
+    fill: #c9d1d9;
+  }
+
+  /* Mode clair */
+  #gh-light-mode-only:target h2 {
+    color: #24292f;
+    fill: #24292f;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  li {
+    display: inline-flex;
+    font-size: 12px;
+    margin-right: 2ch;
+    align-items: center;
+    flex-wrap: nowrap;
+    transform: translateX(-500%);
+    animation: slideIn 2s ease-in-out forwards;
+  }
+
+  @keyframes slideIn {
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  div.ellipsis {
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .octicon {
+    fill: rgb(88, 96, 105);
+    margin-right: 0.5ch;
+    vertical-align: top;
+  }
+
+  /* Mode sombre */
+  #gh-dark-mode-only:target .octicon {
+    color: #8b949e;
+    fill: #8b949e;
+  }
+
+  /* Mode clair */
+  #gh-light-mode-only:target .octicon {
+    color: #586069;
+    fill: #586069;
+  }
+
+  .progress {
+    display: flex;
+    height: 8px;
+    overflow: hidden;
+    background-color: rgb(225, 228, 232);
+    border-radius: 6px;
+    outline: 1px solid transparent;
+    margin-bottom: 1em;
+  }
+
+  /* Mode sombre */
+  #gh-dark-mode-only:target .progress {
+    background-color: rgba(110, 118, 129, 0.4);
+  }
+
+  /* Mode clair */
+  #gh-light-mode-only:target .progress {
+    background-color: rgba(238, 239, 244, 0.7);
+  }
+
+  .progress-item {
+    outline: 2px solid rgb(225, 228, 232);
+    border-collapse: collapse;
+  }
+
+  /* Mode sombre */
+  #gh-dark-mode-only:target .progress-item {
+    outline: 2px solid #393f47;
+  }
+
+  /* Mode clair */
+  #gh-light-mode-only:target .progress-item {
+    outline: 2px solid #d0d7de;
+  }
+
+  .lang {
+    font-weight: 600;
+    margin-right: 4px;
+    color: white;
+  }
+
+  /* Mode sombre */
+  #gh-dark-mode-only:target .lang {
+    color: #c9d1d9;
+  }
+
+  /* Mode clair */
+  #gh-light-mode-only:target .lang {
+    color: #24292f;
+  }
+
+  .percent {
+    color: white;
+  }
+
+  /* Mode sombre */
+  #gh-dark-mode-only:target .percent {
+    color: #8b949e;
+  }
+
+  /* Mode clair */
+  #gh-light-mode-only:target .percent {
+    color: #586069;
+  }
+</style>
+<g>
+  <rect x="5" y="5" id="background" />
+  <g>
+    <foreignObject x="21" y="17" width="318" height="176">
+      <div xmlns="http://www.w3.org/1999/xhtml" class="ellipsis">
+        <h2>Languages Used (By File Size)</h2>
+
+        <div>
+          <span class="progress">
+            <span style="background-color: #3572A5;width: 33.903%;" class="progress-item"></span>
+            <span style="background-color: #555555;width: 21.210%;" class="progress-item"></span>
+            <span style="background-color: #dc566d;width: 8.871%;" class="progress-item"></span>
+            <span style="background-color: #f1e05a;width: 8.577%;" class="progress-item"></span>
+            <span style="background-color: #89e051;width: 6.143%;" class="progress-item"></span>
+            <span style="background-color: #ec915c;width: 4.989%;" class="progress-item"></span>
+            <span style="background-color: #ff3e00;width: 4.955%;" class="progress-item"></span>
+            <span style="background-color: #00ADD8;width: 2.883%;" class="progress-item"></span>
+            <span style="background-color: #3D6117;width: 2.253%;" class="progress-item"></span>
+            <span style="background-color: #b07219;width: 1.568%;" class="progress-item"></span>
+            <span style="background-color: #427819;width: 1.246%;" class="progress-item"></span>
+            <span style="background-color: #663399;width: 0.812%;" class="progress-item"></span>
+            <span style="background-color: #f34b7d;width: 0.786%;" class="progress-item"></span>
+            <span style="background-color: #e5cd45;width: 0.419%;" class="progress-item"></span>
+            <span style="background-color: #3178c6;width: 0.412%;" class="progress-item"></span>
+            <span style="background-color: #199f4b;width: 0.220%;" class="progress-item"></span>
+            <span style="background-color: #6E4C13;width: 0.205%;" class="progress-item"></span>
+            <span style="background-color: #000000;width: 0.197%;" class="progress-item"></span>
+            <span style="background-color: #4F5D95;width: 0.161%;" class="progress-item"></span>
+            <span style="background-color: #384d54;width: 0.071%;" class="progress-item"></span>
+            <span style="background-color: #384d54;width: 0.066%;" class="progress-item"></span>
+            <span style="background-color: #DA3434;width: 0.033%;" class="progress-item"></span>
+            <span style="background-color: #64b970;width: 0.011%;" class="progress-item"></span>
+            <span style="background-color: #C1F12E;width: 0.008%;" class="progress-item"></span>
+          </span>
+        </div>
+
+        <ul>
+          <li style="animation-delay: 0ms;">
+            <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#3572A5;" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+              <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
+            </svg>
+            <span class="lang">Python</span>
+            <span class="percent">33.90%</span>
+          </li>
+
+          <li style="animation-delay: 150ms;">
+            <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#555555;" viewBox="http://www.w3.org/2000/svg" version="1.1" width="16" height="16">
+              <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path>
+            </svg>
+            <span class="lang">C</span>
+            <span class="percent">21.21%</span>
+          </li>
+
+          <!-- Ajoute les autres éléments ici en suivant le même format -->
+          
+        </ul>
+      </div>
+    </foreignObject>
+  </g>
+</g>
+</svg>
