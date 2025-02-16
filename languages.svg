@@ -22,6 +22,7 @@ svg {
 }
 
 foreignObject {
+  background: none;
   width: calc(100% - 10px - 32px);
   height: calc(100% - 10px - 24px);
 }
